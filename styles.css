@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=PT+Serif&family=Vollkorn:wght@500&Noto+Serif:wght@700&display=swap');
+
+
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 30px
+  /* text-transform: uppercase; */
+}
+p.a {
+  font-family: 'Amiri', serif;
+  margin: 30px 230px;
+  /* text-align: center; */
+  text-indent: 50px
+}
+/* CHANGE TO ANCHOR TAG */
+p.b {
+  font-family: 'Vollkorn', serif;
+  margin: 30px 200px;
+  text-align: center;
+}
+div.small {
+  font-family: 'Vollkorn', serif;
+  font-size: 11px
+  margin: 30px 200px;
+  text-align: center;
+}
+img.one{
+  /* height: 150%;
+  width: 150%; */
+  border-color: #A6BEC4
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Vollkorn', serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #A6BEC4;
+}
+
+.button1:hover {
+  background-color: #A6BEC4;
+  color: white;
+}
+
+a.twelve:link, a.twelve:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: #A26363;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #644C4C;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+
+}
+body{
+  padding-bottom: 50px;
+  /* background-image: url("https://wallpaperplay.com/walls/full/0/1/8/33407.jpg"); */
+  background-image: url("https://images.pexels.com/photos/1612432/pexels-photo-1612432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /* background-image: url("https://images.pexels.com/photos/4067724/pexels-photo-4067724.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  /* background-image: url("https://images.pexels.com/photos/1367080/pexels-photo-1367080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+  /* background-image: url("https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
